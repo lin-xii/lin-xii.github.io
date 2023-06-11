@@ -4,16 +4,16 @@
 
 # Site
 title: 林十二XII
-subtitle: ""
-description: ""
-keywords:
-author: John Doe
+subtitle: "刀耕火种的程序猿"
+description: "用于记录学习、编程、感悟的博客"
+keywords: "编程"
+author: 林十二XII
 language: zh-CN
-timezone: ""
+timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://lin-xii.github.io/blog
+url: https://lin-xii.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
