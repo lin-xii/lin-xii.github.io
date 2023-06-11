@@ -93,11 +93,19 @@ pagination_dir: page
 include:
 exclude:
 ignore:
+  # 只忽略 'themes/' 下的 'foo' 文件夹
+  - "**/node_modules/*/_config.yml"
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: landscape
+# themes/my-theme/_config.yml
+# 配合ignore、_config.[theme].yml, 可以屏蔽landscape主题默认的配置. 以避免重复渲染menu
+# theme_config:
+#   menu:
+#     首页: /
+#     归档: /archives
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
