@@ -12,5 +12,8 @@ target = 'content/post'
 source = 'content/2018'
 target = 'content/post'
 [[module.mounts]]
+source = 'content/2023'
+target = 'content/post'
+[[module.mounts]]
 source = 'content/image'
 target = 'content/post/image'
