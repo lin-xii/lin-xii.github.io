@@ -2,3 +2,15 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = '林十二XII'
 theme = 'cleanwhite'
+
+[module]
+[[module.mounts]]
+source = 'content/post'
+target = 'content/post'
+# 这两层映射关系，只是为了减少迁移的工作量。因为之前部分md，结构如此
+[[module.mounts]]
+source = 'content/2018'
+target = 'content/post'
+[[module.mounts]]
+source = 'content/image'
+target = 'content/post/image'
